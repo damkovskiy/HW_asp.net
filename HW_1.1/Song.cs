@@ -8,6 +8,7 @@ namespace HW_1._1
         public string Name { get ; set ; }
         public string Author { get; set; }
         public int Year { get; set; }
+        public int Duration { get; set; }
 
         public void CreateSong()
             {
@@ -17,6 +18,8 @@ namespace HW_1._1
                 Author = Console.ReadLine();
                 Console.WriteLine("Input year of song");
                 Year = Convert.ToInt32(Console.ReadLine());
-            }
+                Console.WriteLine("Input duration of song");
+                Duration = Convert.ToInt32(Console.ReadLine());
         }
     }
+}
