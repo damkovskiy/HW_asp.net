@@ -14,6 +14,7 @@ namespace HW_1._1
 
             Console.WriteLine("");
             Console.WriteLine(json);
+            Console.WriteLine("");
         }
     }
 }
